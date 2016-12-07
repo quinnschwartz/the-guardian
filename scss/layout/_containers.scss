@@ -15,3 +15,7 @@ body {
       }
     }
 }
+
+.headlines img{
+  border-top: solid 2px lighten($main-color, 60%);
+}
