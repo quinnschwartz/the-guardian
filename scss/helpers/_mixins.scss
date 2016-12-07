@@ -4,3 +4,18 @@
     cursor: pointer;
   }
 }
+
+@mixin brightness {
+  &:hover {
+      background-color: darken($bg-color, 4%);
+    img {
+      filter: brightness(1.1);
+    }
+  }
+}
+
+@mixin darken {
+  &:hover {
+    background-color: #F6F6F6;
+  }
+}

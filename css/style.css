@@ -17,6 +17,10 @@ body {
     background-color: #F5F5F5; }
     .content-container .headlines img {
       width: 100%; }
+    .content-container .headlines:hover {
+      background-color: #ebebeb; }
+      .content-container .headlines:hover img {
+        filter: brightness(1.1); }
 
 .headlines img {
   border-top: solid 2px #bce6ff; }
