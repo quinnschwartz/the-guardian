@@ -1,0 +1,11 @@
+.circle {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  background-color: inherit;
+  width: 35px;
+  height: 35px;
+  border: solid 1px white;
+  border-radius: 100%;
+  @include hover;
+}

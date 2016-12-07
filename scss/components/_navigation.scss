@@ -1,0 +1,35 @@
+// @import 'helpers/index';
+
+.navbar {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background-color: $main-color;
+  @media #{$brk-medium} {
+    margin-top: 120px;
+  }
+}
+.navbar-nest {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  background-color: darken($main-color, 5%);
+  a {
+    color: white;
+  }
+  li {
+    list-style-type: none;
+    margin-right: 3%;
+    margin-top: -10px;
+    float: left;
+    color: $white;
+  }
+}
+.logo {
+  float: right;
+  margin-right: 10px;
+  svg {
+    width: 200px;
+  }
+}

@@ -1,0 +1,6 @@
+//pseudoclasses
+@mixin hover {
+  &:hover {
+    cursor: pointer;
+  }
+}
