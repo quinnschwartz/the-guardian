@@ -15,16 +15,8 @@
   position: absolute;
   bottom: 0;
   background-color: darken($main-color, 5%);
-  a {
-    color: white;
-  }
-  li {
-    list-style-type: none;
-    margin-right: 3%;
-    margin-top: -10px;
-    float: left;
-    color: $white;
-  }
+  @include list;
+
 }
 .logo {
   float: right;

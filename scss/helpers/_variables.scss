@@ -5,8 +5,9 @@ $bg-color: #F5F5F5;
 $third-color: #E6711B;
 $white: white;
 $footer-color: #484848;
-
-
+// color function
+$bg-dark: darken($bg-color, 70%);
+$main-light: lighten($main-color, 60%);
 // Media query breakpoints
 
 $brk-narrow: '(max-width: 740px)';
