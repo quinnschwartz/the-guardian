@@ -11,5 +11,5 @@ $main-light: lighten($main-color, 60%);
 // Media query breakpoints
 
 $brk-narrow: '(max-width: 740px)';
-$brk-medium: '(min-width: 980px)';
-$brk-wide: '(min-width: 1300px)';
+$brk-medium: '(min-width: 740px)';
+$brk-wide: '(min-width: 980px)';
